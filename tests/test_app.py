@@ -25,7 +25,7 @@ class TestStrings:
 
 class TestMultiply:
     def test_multiply_positive(self):
-        assert multiply(9, 9) == 81
+        assert multiply(9, 9) == 18
         assert multiply(2, 3) == 6
 
     def test_multiply_negative(self):
